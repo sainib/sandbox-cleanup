@@ -21,6 +21,7 @@ rm -rf /var/log/zookeeper/*
 rm -rf /var/tmp/*
 
 # cleanup storm
+# required to workaround https://issues.apache.org/jira/browse/STORM-307
 rm -rf /hadoop/storm/*
 
 # cleanup zookeeper
