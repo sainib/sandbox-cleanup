@@ -21,9 +21,7 @@ rm -rf /var/log/zookeeper/*
 rm -rf /var/tmp/*
 
 # cleanup storm
-rm -rf /hadoop/storm/supervisor/*
-rm -rf /hadoop/storm/worker/*
-rm -rf /hadoop/storm/nimbus/*
+rm -rf /hadoop/storm/*
 
 # cleanup zookeeper
 rm -rf /hadoop/zookeeper/*
