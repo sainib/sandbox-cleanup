@@ -1,21 +1,44 @@
 #!/bin/bash
 
-rm -rf /var/log/falcon/*
-rm -rf /var/log/hadoop/*
-rm -rf /var/log/hadoop-hdfs/*
-rm -rf /var/log/hadoop-mapreduce/*
-rm -rf /var/log/hadoop-yarn/*
-rm -rf /var/log/hbase/*
-rm -rf /var/log/hive/*
-rm -rf /var/log/hive-hcatalog/*
-rm -rf /var/log/hue/*
-rm -rf /var/log/kafka/*
-rm -rf /var/log/knox/*
-rm -rf /var/log/nagios/*
-rm -rf /var/log/oozie/*
-rm -rf /var/log/storm/*
-rm -rf /var/log/webhcat/*
-rm -rf /var/log/zookeeper/*
+rm -rf /var/log/falcon/*.[12345]
+rm -rf /var/log/hadoop/*.[12345]
+rm -rf /var/log/hadoop/hdfs/*.[12345]
+rm -rf /var/log/hadoop/hdfs/audit/*.[12345]
+rm -rf /var/log/hadoop-hdfs/*.[12345]
+rm -rf /var/log/hadoop-mapreduce/*.[12345]
+rm -rf /var/log/hadoop-yarn/*.[12345]
+rm -rf /var/log/hadoop-yarn/yarn/*.[12345]
+rm -rf /var/log/hbase/*.[12345]
+rm -rf /var/log/hive/*.[12345]
+rm -rf /var/log/hive-hcatalog/*.[12345]
+rm -rf /var/log/hue/*.[12345]
+rm -rf /var/log/kafka/*.[12345]
+rm -rf /var/log/knox/*.[12345]
+rm -rf /var/log/nagios/*.[12345]
+rm -rf /var/log/oozie/*.[12345]
+rm -rf /var/log/storm/*.[12345]
+rm -rf /var/log/webhcat/*.[12345]
+rm -rf /var/log/zookeeper/*.[12345]
+
+rm -rf /var/log/falcon/*2015*
+rm -rf /var/log/hadoop/*2015*
+rm -rf /var/log/hadoop/hdfs/*2015*
+rm -rf /var/log/hadoop/hdfs/audit/*2015*
+rm -rf /var/log/hadoop-hdfs/*2015*
+rm -rf /var/log/hadoop-mapreduce/*2015*
+rm -rf /var/log/hadoop-yarn/*2015*
+rm -rf /var/log/hadoop-yarn/yarn/*2015*
+rm -rf /var/log/hbase/*2015*
+rm -rf /var/log/hive/*2015*
+rm -rf /var/log/hive-hcatalog/*2015*
+rm -rf /var/log/hue/*2015*
+rm -rf /var/log/kafka/*2015*
+rm -rf /var/log/knox/*2015*
+rm -rf /var/log/nagios/*2015*
+rm -rf /var/log/oozie/*2015*
+rm -rf /var/log/storm/*2015*
+rm -rf /var/log/webhcat/*2015*
+rm -rf /var/log/zookeeper/*2015*
 
 # cleanup tmp directories
 rm -rf /var/tmp/*
@@ -26,5 +49,7 @@ rm -rf /hadoop/storm/*
 
 # cleanup zookeeper
 rm -rf /hadoop/zookeeper/*
+
+
 
 
