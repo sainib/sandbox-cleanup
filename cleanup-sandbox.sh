@@ -1,12 +1,13 @@
 #!/bin/bash
 
+rm -rf /var/log/atlas/*.[12345]
 rm -rf /var/log/falcon/*.[12345]
 rm -rf /var/log/hadoop/*.[12345]
 rm -rf /var/log/hadoop/hdfs/*.[12345]
 rm -rf /var/log/hadoop/hdfs/audit/*.[12345]
 rm -rf /var/log/hadoop-hdfs/*.[12345]
 rm -rf /var/log/hadoop-mapreduce/*.[12345]
-rm -rf /var/log/hadoop-yarn/*.[12345]
+rm -rf /var/log/hadoop-yarn/nodemanager/*.[12345]
 rm -rf /var/log/hadoop-yarn/yarn/*.[12345]
 rm -rf /var/log/hbase/*.[12345]
 rm -rf /var/log/hive/*.[12345]
@@ -20,13 +21,14 @@ rm -rf /var/log/storm/*.[12345]
 rm -rf /var/log/webhcat/*.[12345]
 rm -rf /var/log/zookeeper/*.[12345]
 
+rm -rf /var/log/atlas/*2015*
 rm -rf /var/log/falcon/*2015*
 rm -rf /var/log/hadoop/*2015*
 rm -rf /var/log/hadoop/hdfs/*2015*
 rm -rf /var/log/hadoop/hdfs/audit/*2015*
 rm -rf /var/log/hadoop-hdfs/*2015*
 rm -rf /var/log/hadoop-mapreduce/*2015*
-rm -rf /var/log/hadoop-yarn/*2015*
+rm -rf /var/log/hadoop-yarn/nodemanager/*2015*
 rm -rf /var/log/hadoop-yarn/yarn/*2015*
 rm -rf /var/log/hbase/*2015*
 rm -rf /var/log/hive/*2015*
