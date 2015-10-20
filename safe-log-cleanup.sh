@@ -1,0 +1,60 @@
+#!/bin/bash
+
+rm -rf /var/log/atlas/*log.[12345]
+rm -rf /var/log/falcon/*log.[12345]
+rm -rf /var/log/hadoop/*log.[12345]
+rm -rf /var/log/hadoop/hdfs/*log.[12345]
+rm -rf /var/log/hadoop-hdfs/*log.[12345]
+rm -rf /var/log/hadoop-mapreduce/mapred/*log.[12345]
+rm -rf /var/log/hadoop-yarn/yarn/*log.[12345]
+rm -rf /var/log/hbase/*log.[12345]
+rm -rf /var/log/hive/*log.[12345]
+rm -rf /var/log/hive-hcatalog/*log.[12345]
+rm -rf /var/log/hue/*log.[12345]
+rm -rf /var/log/kafka/*log.[12345]
+rm -rf /var/log/knox/*log.[12345]
+rm -rf /var/log/nagios/*log.[12345]
+rm -rf /var/log/oozie/*log.[12345]
+rm -rf /var/log/storm/*log.[12345]
+rm -rf /var/log/webhcat/*log.[12345]
+rm -rf /var/log/zookeeper/*log.[12345]
+
+rm -rf /var/log/atlas/*out.[12345]
+rm -rf /var/log/falcon/*out.[12345]
+rm -rf /var/log/hadoop/*out.[12345]
+rm -rf /var/log/hadoop/hdfs/*out.[12345]
+rm -rf /var/log/hadoop-hdfs/*out.[12345]
+rm -rf /var/log/hadoop-mapreduce/mapred/*out.[12345]
+rm -rf /var/log/hadoop-yarn/yarn/*out.[12345]
+rm -rf /var/log/hbase/*out.[12345]
+rm -rf /var/log/hive/*out.[12345]
+rm -rf /var/log/hive-hcatalog/*out.[12345]
+rm -rf /var/log/hue/*out.[12345]
+rm -rf /var/log/kafka/*out.[12345]
+rm -rf /var/log/knox/*out.[12345]
+rm -rf /var/log/nagios/*out.[12345]
+rm -rf /var/log/oozie/*out.[12345]
+rm -rf /var/log/storm/*out.[12345]
+rm -rf /var/log/webhcat/*out.[12345]
+rm -rf /var/log/zookeeper/*out.[12345]
+
+
+rm -rf /var/log/atlas/*2015*
+rm -rf /var/log/falcon/*2015*
+rm -rf /var/log/hadoop/*2015*
+rm -rf /var/log/hadoop/hdfs/*2015*
+rm -rf /var/log/hadoop/hdfs/*audit*2015*
+rm -rf /var/log/hadoop-hdfs/*2015*
+rm -rf /var/log/hadoop-mapreduce/mapred/*2015*
+rm -rf /var/log/hadoop-yarn/yarn/*2015*
+rm -rf /var/log/hbase/*2015*
+rm -rf /var/log/hive/*2015*
+rm -rf /var/log/hive-hcatalog/*2015*
+rm -rf /var/log/hue/*2015*
+rm -rf /var/log/kafka/*2015*
+rm -rf /var/log/knox/*2015*
+rm -rf /var/log/nagios/*2015*
+rm -rf /var/log/oozie/*2015*
+rm -rf /var/log/storm/*2015*
+rm -rf /var/log/webhcat/*2015*
+rm -rf /var/log/zookeeper/*2015*
